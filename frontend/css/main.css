@@ -1,9 +1,9 @@
 main {
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px 130px 20px;
 }
 .item-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   border-bottom: 1px solid #ededef;
   padding: 20px 0 20px 0;
@@ -18,9 +18,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .item-list__img img {
-  width: 50px;
+  width: 100px;
 }
 .item-list__info {
   height: 130px;
@@ -51,6 +52,7 @@ main {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
 }
 .write-btn:hover {
   background-color: var(--button-hover);
