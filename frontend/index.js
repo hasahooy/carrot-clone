@@ -13,7 +13,7 @@ const calcTime = (timestamp) => {
 
 const renderData = (data) => {
   const main = document.querySelector("main");
-  data.reverse().forEach(async (obj) => {
+  data.sort((a,b)=>a.).forEach(async (obj) => {
     const div = document.createElement("div");
     div.className = "item-list";
 
